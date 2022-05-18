@@ -1,4 +1,4 @@
-class Persona{
+export class Persona{
     private nombre:string;
     private nacimiento:number;
     constructor (anioNacimiento:number, nombre:string){
@@ -37,15 +37,3 @@ public CualEsTuGeneracion(){
     };
 };
 };
-
-//Datos para la Class 
-let fede= new Persona (1982,"Federico Fernandez");
-console.log(fede.CualEsTuNombre());
-console.log(fede.CualEsTuAnio());
-console.log(fede.CualEsTuEdad());
-console.log(fede.CualEsTuGeneracion());
-
-//Datos sobre mi nombre y fecha de nacimiento
-let nombre:string="johnny arvelo" ;
-const nacimiento: number=1999 ;
-console.log("hola "+ nombre +" desde typescript") ;
